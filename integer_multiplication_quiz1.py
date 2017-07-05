@@ -38,4 +38,5 @@ num2 = 2718281828459045235360287471352662497757247093699959574966967627
 if(num1*num2 == multiply_ints(num1,num2)):
 	print str(num1)+ ' * ' + str(num2) + ' = ' + str(multiply_ints(num1,num2))
 else:
-	print 'your program does not work' + str(multiply_ints(num1,num2))
+	print 'your program does not work: ' str(num1)+ ' * ' + str(num2) + ' != ' + str(multiply_ints(num1,num2))
+else:
